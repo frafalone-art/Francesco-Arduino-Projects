@@ -1,27 +1,22 @@
-int bottoneRosso = 13;
-int bottoneVerde = 12;
-int ledRosso = 9;
-int ledVerde = 7;
+int ButtonState = 0;
 
-void setup() {
-  // put your setup code here, to run once:
-Serial.begin(9600);
-pinMode(bottoneRosso, INPUT);
-pinMode(bottoneVerde, INPUT);
-pinMode(ledRosso, OUTPUT);
-pinMode(ledVerde, OUTPUT);
+void setup()
+{
+  pinMode(2, INPUT);
+  pinMode(9, OUTPUT);
+  pinMode(12, OUTPUT);
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
-while(digitalRead(bottoneRosso) == HIGH){
-  Serial.println("Premuto rosso");
-  digitalWrite(ledRosso, HIGH);
-  digitalWrite(ledVerde, LOw);
-}
-while(digitalRead(bottoneVerde) == HIGH){
-  Serial.println("Premuto verde");
-  digitalWrite(ledRosso, LOW);
-  digitalWrite(ledVerde, HIGH);
- }
+void loop()
+{
+  ButtonState = digitalRead(2);
+  if (ButtonState == HIGH) {
+    ButtonState = HIGH;
+    digitalWrite(9, HIGH);
+    digitalWrite(12, LOW);
+  } else {
+    digitalWrite(9, LOW);
+    digitalWrite(12, HIGH);
+  }
+  delay(10); // Delay a little bit to improve simulation performance
 }
