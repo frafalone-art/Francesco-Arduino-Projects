@@ -1,17 +1,19 @@
 # Temperature Sensor
 
-Temperature monitoring project using analog sensors.
+Temperature monitoring system with real-time LCD output.
 
 ## Features
 
-- Analog input
-- Sensor calibration
-- Real-time monitoring
+- Analog sensor reading
+- Temperature conversion
+- Real-time LCD visualization
+- Embedded data processing
 
 ## Hardware
 
 - Arduino board
 - Temperature sensor
+- LCD display
 
 ## Documentation
 
