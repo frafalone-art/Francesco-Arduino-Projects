@@ -1,49 +1,45 @@
-int triggerPort = 7;
-int echoPort = 8;
-int rosso = 10;
-int giallo = 11;
-int ovr = 4;
+int distanza = 0;
 
-void setup() {
-
-pinMode( triggerPort, OUTPUT );
-pinMode( echoPort, INPUT );
-pinMode( rosso, OUTPUT );
-pinMode( giallo, OUTPUT );
-pinMode( ovr, OUTPUT );
-Serial.begin( 9600 );
-Serial.println( "Sensore ultrasuoni:");
-
+long readUltrasonicDistance(int triggerPin, int echoPin)
+{
+  pinMode(triggerPin, OUTPUT);  // Clear the trigger
+  digitalWrite(triggerPin, LOW);
+  delayMicroseconds(2);
+  // Sets the trigger pin to HIGH state for 10 microseconds
+  digitalWrite(triggerPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(triggerPin, LOW);
+  pinMode(echoPin, INPUT);
+  // Reads the echo pin, and returns the sound wave travel time in microseconds
+  return pulseIn(echoPin, HIGH);
 }
 
-void loop() {
- //porta bassa l'uscita del trigger
- digitalWrite( triggerPort, LOW );
+void setup()
+{
+  Serial.begin(9600);
+  pinMode(10, OUTPUT);
+  pinMode(9, OUTPUT);
+  pinMode(8, OUTPUT);
+}
 
- //invia un impulso di 10microsec  su trigger
- digitalWrite( triggerPort, HIGH );
- delayMicroseconds( 10 );
- digitalWrite( triggerPort, LOW );
-
- long duration = pulseIn( echoPort, HIGH);
-
- long r = 0.034 * duration / 2;
-
- Serial.print( "durata:  ");
- Serial.print( duration );
- Serial.print( " , " );
- Serial.print( "distanza: " );
-
- //dopo 38ms è fuori dalla portata del sensore
- if( duration > 38000 ) Serial.println("fuori portata");
- else { Serial.print( r ); Serial.println( "cm" );}
- 
- if(  r > 30) digitalWrite(rosso, HIGH);
- else { digitalWrite(giallo, HIGH);}
- if( r > 50) digitalWrite(rosso, LOW), digitalWrite(ovr, HIGH);
- //aspetta 150 millisecondi
- delay( 150 );
- digitalWrite(rosso, LOW);
- digitalWrite(giallo, LOW);
- digitalWrite(ovr, LOW);
- }
+void loop()
+{
+  distanza = 0.01723 * readUltrasonicDistance(6, 5);
+  Serial.println(distanza);
+  if (distanza < 60) {
+    digitalWrite(10, HIGH);
+  } else {
+    digitalWrite(10, LOW);
+  }
+  if (distanza >= 60 && distanza < 120) {
+    digitalWrite(9, HIGH);
+  } else {
+    digitalWrite(9, LOW);
+  }
+  if (distanza >= 120) {
+    digitalWrite(8, HIGH);
+  } else {
+    digitalWrite(8, LOW);
+  }
+  delay(10); // Delay a little bit to improve simulation performance
+}
