@@ -11,7 +11,7 @@ Digital input experiments using push buttons.
 ## Hardware
 
 - Arduino board
-- Coloured LED
+- Coloured LEDs
 - Push buttons
 - Resistors
 
