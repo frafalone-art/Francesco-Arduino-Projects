@@ -1,19 +1,19 @@
-# Distance Sensor
+# Distance Reactive LEDs
 
-Distance measurement system using ultrasonic sensor.
+Ultrasonic distance monitoring system with visual LED feedback.
 
 ## Features
 
-- Sensor reading
 - Real-time distance measurement
-- Serial output
+- LED activation based on object distance
+- Sensor-driven visual feedback
 
 ## Hardware
 
 - Arduino board
-- Coloured LEDs
 - Ultrasonic sensor
-- Jumper wires
+- LEDs
+- Resistors
 
 ## Documentation
 
