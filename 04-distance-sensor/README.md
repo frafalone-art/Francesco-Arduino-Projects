@@ -11,6 +11,7 @@ Distance measurement system using ultrasonic sensor.
 ## Hardware
 
 - Arduino board
+- Coloured LEDs
 - Ultrasonic sensor
 - Jumper wires
 
