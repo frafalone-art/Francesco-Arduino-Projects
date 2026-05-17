@@ -1,18 +1,19 @@
-# Buttons
+# Button Controlled LEDs
 
-Digital input experiments using push buttons.
+Interactive LED control using a push button.
 
 ## Features
 
-- Digital input reading
-- Button state detection
-- Interactive control
+- Push-button input
+- Dual LED state switching
+- OFF state activates LED 1
+- ON state activates LED 2
 
 ## Hardware
 
 - Arduino board
-- Coloured LEDs
-- Push buttons
+- Push button
+- Two LEDs
 - Resistors
 
 ## Documentation
