@@ -1,13 +1,12 @@
-# Temperature Sensor
+# Temperature Sensor Display
 
-Temperature monitoring system with real-time LCD output.
+Temperature monitoring system with real-time display output.
 
 ## Features
 
-- Analog sensor reading
-- Temperature conversion
+- Analog temperature reading
+- Data conversion
 - Real-time LCD visualization
-- Embedded data processing
 
 ## Hardware
 
