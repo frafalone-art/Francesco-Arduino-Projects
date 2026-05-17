@@ -1,16 +1,18 @@
-# Musical Device
+# Interactive Musical Device
 
-Sound generation project using Arduino and buzzer.
+Interactive sound generation system using buttons and buzzer.
 
 ## Features
 
+- Push-button input
 - Tone generation
-- Frequency control
-- Audio experimentation
+- Interactive note selection
+- Real-time audio feedback
 
 ## Hardware
 
 - Arduino board
+- Push buttons
 - Piezo buzzer
 
 ## Documentation
