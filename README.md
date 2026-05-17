@@ -6,7 +6,7 @@
 
 Collection of Arduino projects, circuit simulations and embedded systems experiments developed during laboratory activities and personal learning.
 
-Designed and documented by Francesco Falone.
+Designed and documented during robotics classes.
 
 ---
 
