@@ -1,7 +1,7 @@
 # Arduino Projects
 
 ![Platform](https://img.shields.io/badge/Platform-Arduino-green)
-![Language](https://img.shields.io/badge/Language-C%2FC%2B%2B-blue)
+![Language](https://img.shields.io/badge/Language-C%2B%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
 Collection of Arduino projects, circuit simulations and embedded systems experiments developed during laboratory activities and personal learning.
