@@ -6,81 +6,102 @@
 
 Collection of Arduino projects, circuit simulations and embedded systems experiments developed during laboratory activities and personal learning.
 
-Designed and documented during robotics classes.
+Designed and documented by Francesco Falone.
 
 ---
 
 ## Projects
 
 ### 01 — LED Blink
-Basic LED control project.
+Basic digital output project focused on LED timing and state management.
 
 Features:
 - Digital output
-- Timing logic
-- Tinkercad schematic
+- Timing control
+- LED state management
 - Physical implementation
 
 ---
 
 ### 02 — Traffic Light
-Traffic light simulation.
+Traffic light simulation with sequential LED logic.
 
 Features:
 - Sequential logic
 - Multiple LEDs
-- Tinkercad schematic
+- State transitions
 - Physical implementation
 
 ---
 
-### 03 — Buttons
-Button input experiments.
+### 03 — Button Controlled LEDs
+Interactive button-controlled LED switching system.
 
 Features:
-- Digital input
-- Multiple configurations
-- Tinkercad schematic
+- Push-button input
+- Dual LED state switching
+- OFF state activates LED 1
+- ON state activates LED 2
 - Physical implementation
 
 ---
 
-### 04 — Distance Sensor
-Ultrasonic distance measurement.
+### 04 — Distance Reactive LEDs
+Ultrasonic sensor project with distance-based LED feedback.
 
 Features:
-- Sensor reading
-- Real-time measurements
-- Tinkercad schematic
+- Real-time distance measurement
+- Sensor-driven LED activation
+- Visual feedback system
 - Physical implementation
 
 ---
 
-### 05 — Temperature Sensor
-Temperature monitoring system.
+### 05 — Temperature Sensor Display
+Temperature monitoring system with real-time LCD output.
 
 Features:
-- Analog input
-- Sensor calibration
-- Tinkercad simulation only
+- Analog sensor reading
+- Temperature conversion
+- LCD visualization
+- Tinkercad simulation
 
 ---
 
-### 06 — Musical Device
-Sound generation project.
+### 06 — Interactive Musical Device
+Interactive sound generation system using buttons and buzzer.
 
 Features:
-- Buzzer control
+- Push-button input
 - Tone generation
-- Tinkercad simulation only
+- Interactive audio feedback
+- Tinkercad simulation
 
 ---
 
 ## Technologies
 
-- :contentReference[oaicite:1]{index=1}
-- :contentReference[oaicite:2]{index=2}
+- Arduino
+- Tinkercad
+- Embedded Systems
+- Sensors
+- Electronics
 - C++
+
+---
+
+## Repository Structure
+
+```txt
+arduino-projects/
+├── 01-led-blink/
+├── 02-traffic-light/
+├── 03-button-controlled-leds/
+├── 04-distance-reactive-leds/
+├── 05-temperature-sensor-display/
+├── 06-interactive-musical-device/
+├── LICENSE
+└── README.md
 
 ---
 
