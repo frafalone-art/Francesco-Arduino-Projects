@@ -1,94 +1,36 @@
-# Arduino Projects
+# 🔌 Arduino Projects
 
 ![Platform](https://img.shields.io/badge/Platform-Arduino-green)
 ![Language](https://img.shields.io/badge/Language-C%2B%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-Collection of Arduino projects, circuit simulations and embedded systems experiments developed during laboratory activities and personal learning.
+Collection of Arduino projects, circuit simulations and embedded systems experiments built during lab activities and personal learning. 🧪⚡
 
----
+## 📦 Projects
 
-## Projects
+**01 — 💡 LED Blink**
+Basic digital output — LED timing and state management. 🔧 Physical build.
 
-### 01 — LED Blink
-Basic digital output project focused on LED timing and state management.
+**02 — 🚦 Traffic Light**
+Sequential logic across multiple LEDs simulating a traffic light. 🔧 Physical build.
 
-Features:
-- Digital output
-- Timing control
-- LED state management
-- Physical implementation
+**03 — 🔘 Button Controlled LEDs**
+Push-button switching between two LEDs: OFF → LED 1, ON → LED 2. 🔧 Physical build.
 
----
+**04 — 📏 Distance Reactive LEDs**
+Ultrasonic sensor driving real-time, distance-based LED feedback. 🔧 Physical build.
 
-### 02 — Traffic Light
-Traffic light simulation with sequential LED logic.
+**05 — 🌡️ Temperature Sensor Display**
+Analog temperature reading with live LCD output. 💻 Tinkercad simulation.
 
-Features:
-- Sequential logic
-- Multiple LEDs
-- State transitions
-- Physical implementation
+**06 — 🎵 Interactive Musical Device**
+Button-triggered tone generation for interactive audio feedback. 💻 Tinkercad simulation.
 
----
+## 🛠️ Tech Stack
 
-### 03 — Button Controlled LEDs
-Interactive button-controlled LED switching system.
+Arduino · C++ · Tinkercad · Sensors · Electronics · Embedded Systems
 
-Features:
-- Push-button input
-- Dual LED state switching
-- OFF state activates LED 1
-- ON state activates LED 2
-- Physical implementation
-
----
-
-### 04 — Distance Reactive LEDs
-Ultrasonic sensor project with distance-based LED feedback.
-
-Features:
-- Real-time distance measurement
-- Sensor-driven LED activation
-- Visual feedback system
-- Physical implementation
-
----
-
-### 05 — Temperature Sensor Display
-Temperature monitoring system with real-time LCD output.
-
-Features:
-- Analog sensor reading
-- Temperature conversion
-- LCD visualization
-- Tinkercad simulation
-
----
-
-### 06 — Interactive Musical Device
-Interactive sound generation system using buttons and buzzer.
-
-Features:
-- Push-button input
-- Tone generation
-- Interactive audio feedback
-- Tinkercad simulation
-
----
-
-## Technologies
-
-- Arduino
-- Tinkercad
-- Embedded Systems
-- Sensors
-- Electronics
-- C++
-
----
-
-## Repository Structure
+## 📂 Repository Structure
 
 ```txt
 arduino-projects/
@@ -100,13 +42,12 @@ arduino-projects/
 ├── 06-interactive-musical-device/
 ├── LICENSE
 └── README.md
+```
 
----
-
-## Author
+## 👤 Author
 
 Francesco Falone
 
-## License
+## 📄 License
 
-MIT License
+MIT
