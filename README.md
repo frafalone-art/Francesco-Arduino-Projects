@@ -99,7 +99,7 @@ arduino-projects/
 ├── 05-temperature-sensor-display/
 ├── 06-interactive-musical-device/
 ├── LICENSE
-└── README.md
+└── README.md```
 
 ---
 
