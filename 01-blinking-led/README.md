@@ -1,25 +1,36 @@
-# LED Blink
+# 💡 LED Blink
+
+![Platform](https://shields.io)
+![Language](https://shields.io)
 
 Basic Arduino LED blinking project.
 
-## Features
+---
 
-- Digital output
-- Timing control
-- Beginner embedded programming
+## ✨ Features
+* Digital output
+* Timing control
+* Beginner embedded programming
 
-## Hardware
+---
 
-- Arduino board
-- LED
-- Resistor
+## 🛠️ Hardware
+* Arduino board
+* LED
+* Resistor
 
-## Documentation
+---
 
-- tinkercad.png → circuit schematic
-- sketch.ino → source code
+## 📸 Documentation
+* `sketch.ino` → [Source Code](./sketch.ino)
+* `tinkercad.png` → Circuit Schematic
 
-## Status
+<p align="center">
+  <img src="tinkercad.png" width="80%" alt="Tinkercad Circuit Schematic">
+</p>
 
-✅ Physically built  
-✅ Tested
+---
+
+## 📊 Status
+* ✅ Physically built
+* ✅ Tested
