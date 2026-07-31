@@ -1,40 +1,49 @@
 # 🔌 Arduino Projects
 
 ![Platform](https://img.shields.io/badge/Platform-Arduino-green)
-![Language](https://img.shields.io/badge/Language-C%2B%2B-blue)
+![Language](https://shields.io)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
 Collection of Arduino projects, circuit simulations and embedded systems experiments built during lab activities and personal learning. 🧪⚡
 
-## 📦 Projects
+---
 
-**01 — 💡 LED Blink**
+## 📦 Projects Index
+
+*Clicca sul nome di un progetto per esplorarne il codice sorgente, gli schemi elettronici e la documentazione specifica.*
+
+**01 — [💡 Blinking LED](./01-blinking-led/)**
 Basic digital output — LED timing and state management. 🔧 Physical build.
 
-**02 — 🚦 Traffic Light**
+**02 — [🚦 Traffic Light](./02-traffic-light/)**
 Sequential logic across multiple LEDs simulating a traffic light. 🔧 Physical build.
 
-**03 — 🔘 Button Controlled LEDs**
+**03 — [🔘 Button Controlled LEDs](./03-button-controlled-leds/)**
 Push-button switching between two LEDs: OFF → LED 1, ON → LED 2. 🔧 Physical build.
 
-**04 — 📏 Distance Reactive LEDs**
+**04 — [📏 Distance Reactive LEDs](./04-distance-reactive-leds/)**
 Ultrasonic sensor driving real-time, distance-based LED feedback. 🔧 Physical build.
 
-**05 — 🌡️ Temperature Sensor Display**
+**05 — [🌡️ Temperature Sensor Display](./05-temperature-sensor-display/)**
 Analog temperature reading with live LCD output. 💻 Tinkercad simulation.
 
-**06 — 🎵 Interactive Musical Device**
+**06 — [🎵 Interactive Musical Device](./06-interactive-musical-device/)**
 Button-triggered tone generation for interactive audio feedback. 💻 Tinkercad simulation.
+
+---
 
 ## 🛠️ Tech Stack
 
-Arduino · C++ · Tinkercad · Sensors · Electronics · Embedded Systems
+**Languages & Tools:** C++ (Arduino IDE) · Tinkercad Simulation  
+**Hardware & Concepts:** Microcontrollers · Sensors & Actuators · Electronics · Embedded Systems Logic
+
+---
 
 ## 📂 Repository Structure
 
 ```txt
 arduino-projects/
-├── 01-led-blink/
+├── 01-blinking-led/
 ├── 02-traffic-light/
 ├── 03-button-controlled-leds/
 ├── 04-distance-reactive-leds/
@@ -44,10 +53,15 @@ arduino-projects/
 └── README.md
 ```
 
-## 👤 Author
+---
 
-Francesco Falone
+## 👨‍💻 Author
+
+**Francesco Falone**  
+Independent developer focused on Embedded Systems and Low-Level Firmware Architecture.
+
+---
 
 ## 📄 License
 
-MIT
+This repository is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
