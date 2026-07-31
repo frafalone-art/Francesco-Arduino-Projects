@@ -1,8 +1,5 @@
 # 💡 LED Blink
 
-![Platform](https://shields.io)
-![Language](https://shields.io)
-
 Basic Arduino LED blinking project.
 
 ---
