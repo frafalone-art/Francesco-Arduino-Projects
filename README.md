@@ -10,8 +10,6 @@ Collection of Arduino projects, circuit simulations and embedded systems experim
 
 ## 📦 Projects Index
 
-*Clicca sul nome di un progetto per esplorarne il codice sorgente, gli schemi elettronici e la documentazione specifica.*
-
 **01 — [💡 Blinking LED](./01-blinking-led/)**
 Basic digital output — LED timing and state management. 🔧 Physical build.
 
