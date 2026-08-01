@@ -1,4 +1,4 @@
-# 💡 Traffic Light
+# 🚦 Traffic Light
 
 Traffic light simulation using multiple LEDs.
 
