@@ -13,7 +13,7 @@ Temperature monitoring system with real-time display output.
 
 ## 📸 Documentation
 * [sketch.ino](sketch.ino) → Source Code
-* [tinkercad.png](tinkercad.png) → Circuit Schematic
+* ![Circuit Schematic](tinkercad.png)
 
 ## 📊 Status
 * 🧪 Simulation only
