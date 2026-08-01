@@ -1,7 +1,7 @@
 # 🔌 Arduino Projects
 
-![Platform](https://img.shields.io/badge/Platform-Arduino-BD79D1?logo=arduino)
-![Language](https://img.shields.io/badge/Language-C%2B%2B-F34B7D?logo=cplusplus)
+[![Platform](https://img.shields.io/badge/Platform-Arduino-BD79D1?logo=arduino)](https://arduino.cc/)
+[![Language](https://img.shields.io/badge/Language-C%2B%2B-F34B7D?logo=cplusplus)](https://cppreference.com)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 Collection of Arduino projects, circuit simulations and embedded systems experiments built during lab activities and personal learning. 🧪⚡
