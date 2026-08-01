@@ -1,4 +1,4 @@
-# 💡 Button Controlled LEDs
+# 🔘 Button Controlled LEDs
 
 Interactive LED control using a push button.
 
