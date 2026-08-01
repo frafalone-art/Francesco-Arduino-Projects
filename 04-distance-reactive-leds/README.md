@@ -1,4 +1,4 @@
-# 💡 Distance Reactive LEDs
+# 📏 Distance Reactive LEDs
 
 Ultrasonic distance monitoring system with visual LED feedback.
 
