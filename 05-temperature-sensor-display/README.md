@@ -11,9 +11,13 @@ Temperature monitoring system with real-time display output.
 * Temperature sensor
 * LCD display
 
-## 📸 Documentation
-* [sketch.ino](sketch.ino) → Source Code
-* ![Circuit Schematic](tinkercad.png)
+## 📸 Documentation 
+* `sketch.ino` → [Source Code](./sketch.ino)
+* `tinkercad.png` → Circuit Schematic
+
+<p align="center">
+  <img src="tinkercad.png" width="80%" alt="Tinkercad Circuit Schematic">
+</p>
 
 ## 📊 Status
 * 🧪 Simulation only
