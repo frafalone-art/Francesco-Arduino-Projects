@@ -1,25 +1,24 @@
-# Interactive Musical Device
-
+# 🎵 Interactive Musical Device
 Interactive sound generation system using buttons and buzzer.
 
-## Features
+## ✨ Features
+* **Push-button input**: Digital reading of button presses.
+* **Tone generation**: Audio frequency output management.
+* **Interactive note selection**: Button mapping to musical notes.
+* **Real-time audio feedback**: Instant response to user interaction.
 
-- Push-button input
-- Tone generation
-- Interactive note selection
-- Real-time audio feedback
+## 🛠️ Hardware
+* Arduino board
+* Push buttons
+* Piezo buzzer
 
-## Hardware
+## 📸 Documentation
+* `sketch.ino` → [Source Code](./sketch.ino)
+* `tinkercad.png` → Circuit Schematic
 
-- Arduino board
-- Push buttons
-- Piezo buzzer
+<p align="center">
+  <img src="tinkercad.png" width="80%" alt="Tinkercad Circuit Schematic">
+</p>
 
-## Documentation
-
-- tinkercad.png → circuit schematic
-- sketch.ino → source code
-
-## Status
-
-🧪 Simulation only
+## 📊 Status
+* 🧪 Simulation only
