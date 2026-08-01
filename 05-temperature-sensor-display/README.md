@@ -1,24 +1,19 @@
-# Temperature Sensor Display
-
+# 🌡️ Temperature Sensor Display
 Temperature monitoring system with real-time display output.
 
-## Features
+## ✨ Features
+* **Analog temperature reading**: Input processing from the sensor.
+* **Data conversion**: Raw value translation to temperature.
+* **Real-time LCD visualization**: Live data output on the screen.
 
-- Analog temperature reading
-- Data conversion
-- Real-time LCD visualization
+## 🛠️ Hardware
+* Arduino board
+* Temperature sensor
+* LCD display
 
-## Hardware
+## 📸 Documentation
+* [sketch.ino](sketch.ino) → Source Code
+* [tinkercad.png](tinkercad.png) → Circuit Schematic
 
-- Arduino board
-- Temperature sensor
-- LCD display
-
-## Documentation
-
-- tinkercad.png → circuit schematic
-- sketch.ino → source code
-
-## Status
-
-🧪 Simulation only
+## 📊 Status
+* 🧪 Simulation only
