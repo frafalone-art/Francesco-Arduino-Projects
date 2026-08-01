@@ -1,27 +1,35 @@
-# Traffic Light
+# 💡 Traffic Light
 
 Traffic light simulation using multiple LEDs.
 
-## Features
+---
 
-- Sequential logic
-- LED state management
-- Timing synchronization
+## ✨ Features
+* Sequential logic
+* LED state management
+* Timing synchronization
 
-## Hardware
+---
 
-- Arduino board
-- Red LED
-- Yellow LED
-- Green LED
-- Resistors
+## 🛠️ Hardware
+* Arduino board
+* Red LED
+* Yellow LED
+* Green LED
+* Resistors
 
-## Documentation
+---
 
-- tinkercad.png → circuit schematic
-- sketch.ino → source code
+## 📸 Documentation
+* `sketch.ino` → [Source Code](./sketch.ino)
+* `tinkercad.png` → Circuit Schematic
 
-## Status
+<p align="center">
+  <img src="tinkercad.png" width="80%" alt="Tinkercad Circuit Schematic">
+</p>
 
-✅ Physically built  
-✅ Tested
+---
+
+## 📊 Status
+* ✅ Physically built
+* ✅ Tested
