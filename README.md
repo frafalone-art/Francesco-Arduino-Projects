@@ -6,6 +6,8 @@
 
 Collection of Arduino projects, circuit simulations and embedded systems experiments built during lab activities and personal learning. 🧪⚡
 
+🌐 You can check and verify the circuits here 
+
 ---
 
 ## 📦 Projects Index
