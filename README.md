@@ -6,7 +6,7 @@
 
 Collection of Arduino projects, circuit simulations and embedded systems experiments built during lab activities and personal learning. 🧪⚡
 
-🌐 You can check and verify the circuits here 👉 [Tinkercad projects]()
+🌐 You can check and verify the circuits here 👉 [Tinkercad circuits](https://www.tinkercad.com/things/5rDUWpp0Tsp-robotics-projects)
 
 ---
 
