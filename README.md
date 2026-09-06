@@ -2,6 +2,7 @@
 
 [![Platform](https://img.shields.io/badge/Platform-Arduino-00979D?logo=arduino)](https://arduino.cc/)
 [![Language](https://img.shields.io/badge/Language-C%2B%2B-F34B7D?logo=cplusplus)](https://cppreference.com)
+[![Platform](https://img.shields.io/badge/Developed%20with-Tinkerkad-blue)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 Collection of Arduino projects, circuit simulations and embedded systems experiments built during lab activities and personal learning. 🧪⚡
